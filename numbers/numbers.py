@@ -1,6 +1,5 @@
 x = 6
-y = 10
+y = 20
 
-sum = x+y
-
-print(sum)
+product = x*y
+print(product)
