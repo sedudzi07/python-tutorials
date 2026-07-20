@@ -1,41 +1,28 @@
- 
-print("hello")
+birth_year = input("Enter your birth year: ")
 
-greet = "hello"
-print (greet)
+current_year = 2026
 
-time = "afternoon"
-
-print("good " + time)
-
-print("print is used to display output on the screen")
-
-print(greet * 2)
-
-print (greet + " " + time)
-
-course = "python  tutorials"
-
-print (len(course))
-print(course[0])
-print (course[3])
-print(course[-1])
-print(course[0:4])
-print(course[0:])
-print(course[:])
-print(course[:3])
-
-course1 = "programming with \"python"
-course1 = 'programming with "python"'
-
-course1 = "programming with \"python"
-
-# these are the escape sequences
-# \'' this is used to print single quotes
-# \""; this is used to print double quotes
-# \\; this is used to print backslash
-#\n; this is used to print in new line
+print( "your age is  " + str(current_year - int(birth_year)))
 
 
-print (len(course1))
+name = input( "What is your name? ")
+
+print("hello "+ name + " welcome to the program")
+
+print( "your age is " +str(current_year - int(birth_year)) 
+      + " and your name is " + name)
+
+course =  input('what are you learnig today?')
+
+print('you are learning ' + course )
+
+weight = input("enter your weight in pounds: ")
+
+print("your weight is " + str(int(weight) * 0.45) + " in kg")
+
+height = input("how tall are you in inches? : ")
+print("your height is " + str(int(height) * 2.54) + " in cm")
+
+
+
 
