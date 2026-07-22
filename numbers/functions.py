@@ -1,14 +1,13 @@
-# today's tutorial is on functions in python
+# defining a function
 
-# defining of a function
-
-def sum(a, b):
-    sum = a + b
-    print(sum)
+from os import name
 
 
-# calling a function
-sum(10, 20)
+greet_person(name)
+print("Hello 'name', want to code with me")
+
+
+greet_person("John")
 
 
 
