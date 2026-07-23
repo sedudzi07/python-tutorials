@@ -1,36 +1,56 @@
-#variables 
+#DATA YPES AND VARIABLES
 
-name = "Ernest"
-print(name)
 
-age = '17 years'
-print(age)
-
-height = "1.78 inches"
-print ("height")
-
-is_student = False
-
-# DATA TYPES
-# Integers
-
+#INTEGERS
 age = 20
+
+students = 20
+
+tutors = 30
+
+print(f'you are {age} tears old')
+print(f"there are {students} puplis in this class")
+print(f'We have {tutors} tutors in this department')
+
 
 #float
 
-height = 1.78
+gpa = 3.4
+
+distance = 10.8
+
+price = 10.88
+
+print(f"your gpa is {gpa}")
+
+print(f"you walked {distance}km today")
+
+print(f"the pice of the fis is ${price}")
+
+
+#string
+
+user_name = "Dave"
+email = "dave123@gmail.com"
+fav_food = "fufu"
+
+print(f"my name is {user_name}")
+print(f"my email is {email}")
+print(f"my favorite food is {fav_food}")
 
 #boolean
 
-is_student = False
+online = True
 
-#set
+learning = False
+for_sale = False
 
-A = {1, 2, 4, 5,}
+gaming = True
 
-# list
-fruits  = ["banana, apple, orange, pear"]
+print(f' are you online?: {online}')
+print(f' Are we learning Javascipt?: {learning}')
+print(f' is the laptop fpr sale?: {for_sale}')
+print(f'will you download GTA VI?: {gaming} ')
 
 
-
-
+    
