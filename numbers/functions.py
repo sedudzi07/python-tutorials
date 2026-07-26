@@ -1,13 +1,13 @@
 # defining a function
-
-from os import name
-
-
-greet_person(name)
-print("Hello 'name', want to code with me")
+def area_of_rectangle(lenght, width):
+    area = length * width
+    return area
 
 
-greet_person("John")
+print()
+
+
+    
 
 
 
