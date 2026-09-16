@@ -5,4 +5,5 @@ bills = 200
 
 savings = wages - (rent + food + bills)
 
+print("your total savings is " ) 
 print(savings)
