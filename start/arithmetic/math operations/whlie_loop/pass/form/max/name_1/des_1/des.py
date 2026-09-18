@@ -23,17 +23,26 @@ while Hometown == "":
 
     Hometown = input("Enter the name of your hometown: ")
 
-height = input("Enter your height in Inches")
+height = input("Enter your height in inches: ")
 
 while height == 0:
     print("You cannot have that height ")
-    height = input("Enter your height in Inches")
+    height = input("Enter your height in Inches: ")
+
+
+food = input("what food do you like? (q to quit): ")
+while not  food == 'q':
+    print(f"You like {food}")
+    food = input("enter another food you like: (q to quit): ")
+
+print("bye")
+
 
 
 print(f'Hello {name}')
 print(f"You are {age} years old")
 print(f"You come from {Hometown}")
-print(f" You are {height} inches tall")
+print(f"You are {height} inches tall")
 
 
   
